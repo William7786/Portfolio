@@ -81,7 +81,23 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
+h4, .card1-img-top {
+  color:#64a19d;
+  font-size: 80px;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #64a19d, 0 0 20px #64a19d;
+  }
+  to {
+    text-shadow: 0 0 20px #64a19d, 0 0 30px #64a19d;
+  }
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -2465,9 +2481,12 @@ textarea.form-control {
 }
 .btn.disabled, .btn:disabled {
   opacity: 0.65;
+ 
 }
 .btn:not(:disabled):not(.disabled) {
-  cursor: pointer;
+  cursor: pointer; 
+  margin-bottom: 103px;
+  margin-left: 90px;
 }
 a.btn.disabled,
 fieldset:disabled a.btn {
