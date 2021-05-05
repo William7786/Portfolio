@@ -2484,9 +2484,10 @@ textarea.form-control {
  
 }
 .btn:not(:disabled):not(.disabled) {
-  cursor: pointer; 
-  margin-bottom: 103px;
-  margin-left: 90px;
+  cursor: pointer;
+  height:23%; 
+  margin-bottom: 119px;
+  margin-left: 77px;
 }
 a.btn.disabled,
 fieldset:disabled a.btn {
@@ -10133,6 +10134,7 @@ h3 {
   }
   body {
     min-width: 992px !important;
+    padding-bottom:75%;
   }
 
   .container {
@@ -10328,9 +10330,10 @@ body {
 
 .projects-section {
   /* padding: 10rem 0; */
-  background: linear-gradient(to bottom, #1a1a1a 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0.8, 0, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, #1a1a1a 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0.8, 0, 0, 0.9) 100%)rgba(0.8, 0, 0, 0.9) 100%;
   width: 100%; 
   padding-top: 10rem;
+  padding-bottom: 100%;
   
   
 }
