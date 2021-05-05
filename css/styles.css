@@ -5,7 +5,6 @@
 
 
 
-
 @charset "UTF-8";
 :root {
   --blue: #007bff;
@@ -31,7 +30,7 @@
   --dark: #343a40;
   --black: #000000;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
+  --breakpoint-sm: 200px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
@@ -50,6 +49,9 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  width:100%;
+  height:100%;
+  
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -57,7 +59,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  width: 100%;
+  height:100%;
+  margin-left: 20px;
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
@@ -65,6 +69,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -202,8 +207,8 @@ samp {
 pre {
   margin-top: 0;
   margin-bottom: 1rem;
-  overflow: auto;
-  -ms-overflow-style: scrollbar;
+  overflow: hidden;
+  
 }
 
 figure {
@@ -263,7 +268,7 @@ textarea {
 
 button,
 input {
-  overflow: visible;
+  overflow: hidden;
 }
 
 button,
@@ -1948,11 +1953,11 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 300px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
   .table-responsive-sm > .table-bordered {
@@ -1963,7 +1968,7 @@ pre code {
   .table-responsive-md {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
   .table-responsive-md > .table-bordered {
@@ -1974,7 +1979,7 @@ pre code {
   .table-responsive-lg {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
   .table-responsive-lg > .table-bordered {
@@ -1985,7 +1990,7 @@ pre code {
   .table-responsive-xl {
     display: block;
     width: 100%;
-    overflow-x: auto;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
   }
   .table-responsive-xl > .table-bordered {
@@ -1995,7 +2000,7 @@ pre code {
 .table-responsive {
   display: block;
   width: 100%;
-  overflow-x: auto;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .table-responsive > .table-bordered {
@@ -3993,6 +3998,7 @@ input[type=button].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 
 .nav-link {
@@ -10134,6 +10140,7 @@ h3 {
   }
   body {
     min-width: 992px !important;
+    
     padding-bottom:75%;
   }
 
@@ -10190,6 +10197,9 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
+  white-space: normal;
+  
+  
   background-color: #fff;
 }
 #mainNav .navbar-toggler {
@@ -10425,100 +10435,7 @@ body {
 
 
 
- 
-  .date1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
-    padding: .75rem;}
-
-    .day1, .type1{
-      display: block;
-      text-align: center;
-    }
-    .day1{
-      font-weight: 700;
-      font-size: 1rem;
-      text-shadow: 2px 3px 2px rgba(black, 0.18);
-    }
-  
-  .content1 {
-    background-color: white;
-    color: black;
-    box-shadow: 0 5px 30px 10px rgba(black, 0.3);
-  }
-  
-    .H{  
-      text-align: center;
-      width: 3rem;
-      background-color: #333;
-      height: 3rem;
-      position: relative;
-      color: black;
-      display: inline-block;
-    }
-    .menu-content1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;}
-   
-    a {
-      font-size: 24px;
-    }
-  
-    .card1 {
-      float: left;
-      padding: 1rem;
-      min-width: 300px;}
-      
-      .menu-content1 {
-        margin: 0;
-        padding: 0;
-        list-style-type: none;}
-
-        
-     
-      .wrapper1 {
-        background-color: white;
-        min-height: 200px;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0 19px 38px rgba(black, 0.3), 0 15px 12px rgba(black, 0.2);}
-        
-          .data1:hover {
-            transform: translateY(0);
-          }
-        
-      
-      .data1 {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        transform: translateY(calc(80px + 1em));
-        transition: transform 0.3s;}
-        .content1 {
-          padding: 1.5em;
-          position: relative;
-          z-index: 1;
-        }
-      
-      .type1 {
-        font-size: 12px;
-      }
-      .title1 {
-        margin-top: 10px;
-      }
-      .text1 {
-        height: 70px;
-        margin: 0;
-      }
-      input[type='checkbox'] {
-        display: none;
-      }
-      input[type='checkbox']:checked + .menu-content1 {
-        transform: translateY(-60px);
-      }
+ body{
+   overflow-x: hidden;
+ }
     
