@@ -3,7 +3,7 @@
 
 
 
-
+/* bootstrap template */
 
 @charset "UTF-8";
 :root {
@@ -178,12 +178,12 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #467370;
+  font-weight:bolder;
   text-decoration: underline;
 }
 
@@ -192,7 +192,7 @@ a:not([href]):not([class]) {
   text-decoration: none;
 }
 a:not([href]):not([class]):hover {
-  color: inherit;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -2490,9 +2490,9 @@ textarea.form-control {
 }
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  height:23%; 
-  margin-bottom: 273px;
-  margin-left: 75px;
+  height: 20%; 
+  margin-bottom: 285px;
+  margin-left: 74px;
 }
 a.btn.disabled,
 fieldset:disabled a.btn {
@@ -10230,17 +10230,16 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgb(235, 229, 229);
+    color: rgb(0, 0, 0);
   }
   #mainNav .nav-link:hover {
     color: rgb(6, 241, 230);
@@ -10266,7 +10265,8 @@ body {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #000000;
+    font-weight:bolder;
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
@@ -10343,7 +10343,7 @@ body {
   background: linear-gradient(to bottom, #1a1a1a 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0.8, 0, 0, 0.9) 100%)rgba(0.8, 0, 0, 0.9) 100%;
   width: 100%; 
   padding-top: 10rem;
-  padding-bottom: 100%;
+  padding-bottom: 30%;
   
   
 }

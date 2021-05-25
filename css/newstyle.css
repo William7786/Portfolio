@@ -72,7 +72,7 @@
 	  margin-bottom: 15px;
 	  padding-bottom: 15%;
 	  width: 100%;
-	  margin-bottom: 318px;
+	  margin-bottom: 317px;
 	  margin-top: -297px;
   }
   .btn1{
@@ -82,3 +82,8 @@
   body{
 	overflow-x: hidden;
   }
+
+  svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    color: white;
+}
