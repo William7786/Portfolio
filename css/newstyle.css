@@ -1,6 +1,10 @@
 
   
-  .card1-block .btn-outline-primary {
+  a{
+	color:white'
+  }
+ 
+ .card1-block .btn-outline-primary {
 	width: 100%;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
@@ -65,11 +69,11 @@
   .img-fluid{
 	  display:flex;
 	  justify-content: center;
-	  margin-bottom: 20px;
+	  margin-bottom: 15px;
 	  padding-bottom: 15%;
 	  width: 100%;
-	  margin-bottom: 143px;
-	  margin-top: -155px;
+	  margin-bottom: 318px;
+	  margin-top: -297px;
   }
   .btn1{
 	margin-right: 10px;

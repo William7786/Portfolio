@@ -496,10 +496,10 @@ mark,
   height: auto;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
-  padding-bottom: 20%;
-  margin-right: -50.5%;
-  margin-top: 17%;
+  margin-bottom: 143px;
+  padding-bottom: 29%;
+  margin-right: -40.5%;
+  margin-top: -247px;
 }
 
 .img-thumbnail {
@@ -576,8 +576,8 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
-  .container-sm, .container {
+@media (min-width: 300px) {
+  .container-sm, .container, .container1{
     max-width: 540px;
   }
 }
@@ -2491,8 +2491,8 @@ textarea.form-control {
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
   height:23%; 
-  margin-bottom: 119px;
-  margin-left: 77px;
+  margin-bottom: 273px;
+  margin-left: 75px;
 }
 a.btn.disabled,
 fieldset:disabled a.btn {
@@ -10240,13 +10240,13 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(235, 229, 229);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(6, 241, 230);
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: rgb(0, 247, 255);
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
